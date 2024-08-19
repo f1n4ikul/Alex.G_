@@ -1,0 +1,119 @@
+
+.footer-card-container{
+    background-color: #181823;
+    margin: 1% 7% 7% 7%;
+    padding: 70px 50px;
+}
+.footer-my-network ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+.footer-my-network img{
+    width: 25px;
+    height: 25px;
+}
+.footer-top-side{
+    display: flex;
+    justify-content: center;
+    gap: 55%;
+    transition: gap .4s;
+}
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-self: center;
+    /* justify-items: stretch; */
+    /* grid-template-columns: 1fr 400px 1fr; */
+}
+.footer-right-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 20%;
+    transition: width .3s ;
+}
+.footer-logo{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-bot-side p{
+    color:#8491a0
+}
+
+.footer-bot-side {
+    margin: 20px 0 0 0;
+}
+.footer-menu__link{
+    
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration: none;
+    transition: color .19s ease-in-out;
+
+}
+.footer-menu__link:hover{
+    color: #0FF5F3
+}
+
+@media(max-width:1100px){
+    .footer-top-side{
+        gap: 40%;
+    }
+    .footer-right-top{
+        width: 40%;
+    }
+}
+
+@media(max-width: 700px){
+    .footer-top-side{
+        gap: 30%;
+    }
+    .footer-right-top{
+        width: 50%;
+    }
+}
+
+@media(max-width: 620px){
+    .footer-right-top {
+        width: 55%;
+    }
+    .footer-top-side{
+        gap: 15%;
+    }
+}
+
+@media(max-width: 525px){
+    .footer-top-side{
+        
+    }
+    .footer-right-top {
+        width: 40%;
+    }
+    .footer-card-container{
+        padding: 70px 5px;
+    }
+}
+
+@media(max-width: 480px){
+    .footer-top-side{
+        flex-direction: column;
+        gap: 40%;
+    }
+    .footer-right-top{
+        width: 100%;
+    }
+    .footer-left-top{
+        margin-bottom: 40px;
+    }
+    .footer-card-container{
+        padding: 70px 30px;
+    }
+}
