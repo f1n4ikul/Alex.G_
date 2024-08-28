@@ -16,6 +16,17 @@ body._touch.navigation__fixed{
         right: 0;
         z-index: 10;
         width: 100%;
+        backdrop-filter: blur(4px);
+        background-color: #1c1c25;
+    }
+    .menu__body{
+        background-color: #1c1c25;
+    }
+}
+
+body._touch.lock{
+    .menu__body{
+        background-color: #1c1c25;
     }
 }
 
@@ -72,7 +83,7 @@ body._pc.navigation__fixed{
     justify-content: space-between;
     align-items: center;
     /* background-color: #19191afb; */
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(4px);
     min-height: 70px;
     transition: all .3s;
     
@@ -105,6 +116,7 @@ body._pc.navigation__fixed{
     text-decoration: none;
     background-color: #520FF5;
     transition: background-color .19s ease-in-out;
+    border-radius: 10px;
 }
 
 .violl-menu__link:hover{
@@ -113,7 +125,7 @@ body._pc.navigation__fixed{
 
 .main-img-container{
     text-align: center;
-    width: 44%;
+    width: 90%;
 }
 .main-text-container{
     position: relative;
@@ -134,9 +146,8 @@ body._pc.navigation__fixed{
 .main-img-container img { 
     width: 600px;
     height: 790px;
-    border-radius: 12%;
+    border-radius: 3%;
     position: relative;
-    border: 2px solid  #3e08c1;
     transition: border 1s  ease-in-out;
     z-index: 1;
 }
@@ -456,7 +467,7 @@ body._pc.navigation__fixed{
     }
     .menu__body{
         position: absolute;
-        top: -15px;
+        top: 60px;
         left: -100%;
         height: 50vh;
         width: 120px;
@@ -466,7 +477,7 @@ body._pc.navigation__fixed{
         overflow: auto; 
         cursor: pointer;
         /* background-color: rgba(72, 58, 151, .3); */
-        backdrop-filter: blur(16px);
+        backdrop-filter: blur(4px);
     }
     .wrap-main-info{
         padding: 60px 0 0 30px;
@@ -528,6 +539,7 @@ body._pc.navigation__fixed{
         }
         .header{
             position: sticky;
+            background-color: #1c1c25;
             top: 0px;
             right: 0;
             z-index: 10;
@@ -549,7 +561,12 @@ body._pc.navigation__fixed{
     }
     .main-text-container p{
         text-align: start;
-        padding: 10px 15px 5px 15px;
+        padding: 40px 15px 40px 15px;
+        margin: 0;
+    }
+    .main-text-container h1{
+        text-align: start;
+        padding: 40px 15px 0px 15px;
         margin: 0;
     }
     .work-experience-container p{

@@ -115,6 +115,10 @@
         font-size: 20px
     }
     .hard-skills-container{
-        height: 400px;
+        /* height: 400px; */
+        flex-direction: column;
+    }
+    .skillset-container{
+        padding: 20px 40px;
     }
 }
