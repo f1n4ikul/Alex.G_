@@ -1,0 +1,14 @@
+.footer-container{
+    background-color: #181823;
+    margin-top: 50px;
+}
+
+.container-card{
+    padding: 40px;
+}
+.footer-bot-side p span{
+    color: cyan;
+    font-size: 14px;
+    font-weight: 400;
+    font-variant: small-caps;
+}

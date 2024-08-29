@@ -125,7 +125,7 @@ body._pc.navigation__fixed{
 
 .main-img-container{
     text-align: center;
-    width: 90%;
+    width: 40%;
 }
 .main-text-container{
     position: relative;
@@ -431,7 +431,7 @@ body._pc.navigation__fixed{
         bottom: 270px;
     }
     .help_{
-        height: 70%;
+        height: 90%;
     }
 }
 
@@ -443,6 +443,7 @@ body._pc.navigation__fixed{
     }
     .help_{
         height: 75%;
+        max-height: 640px;
     }
 
     .ball_{
@@ -551,6 +552,9 @@ body._pc.navigation__fixed{
 }
 
 @media(max-width: 680px){
+    .main-img-container{
+        width: 80%;
+    }
     .main-img-container img{
         width: 100%;
         height: 100%;
