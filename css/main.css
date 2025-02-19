@@ -145,8 +145,9 @@ body._pc.navigation__fixed{
     transition: all .3s;
 }
 .main-img-container img { 
-    width: 600px;
+    width: 85%;
     height: 790px;
+    object-fit: cover;
     border-radius: 3%;
     position: relative;
     transition: border 1s  ease-in-out;
@@ -424,8 +425,8 @@ body._pc.navigation__fixed{
 /*-----------------------------------*/
 @media(max-width: 1523px){
     .main-img-container img { 
-        width: 70%;
-        height: 70%;
+        width: 85%;
+        
     }
     .ball_{
         bottom: 270px;
@@ -556,8 +557,8 @@ body._pc.navigation__fixed{
         width: 80%;
     }
     .main-img-container img{
-        width: 100%;
-        height: 100%;
+        width: 77%;
+        
     }
     .main-text{
         font-size: 25px;
